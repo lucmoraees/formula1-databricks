@@ -8,12 +8,12 @@ Formula 1 (F1) is the top tier of single-seater auto racing worldwide, governed 
 
 <h3>Architecture diagram</h3>
 
-<img src="https://github.com/lucmoraees/formula1-databricks/images/Architecture.png">
+<img src="https://github.com/lucmoraees/formula1-databricks/blob/main/images/Architecture.png">
 
 # ER Diagram:
 
 The structure of the database is shown in the following ER Diagram and explained in the [Database User Guide](http://ergast.com/docs/f1db_user_guide.txt)
-<img src="https://github.com/lucmoraees/formula1-databricks/images/ER Diagram.png">
+<img src="https://github.com/lucmoraees/formula1-databricks/blob/main/images/ER Diagram.png">
 
 ## How it works:
 
@@ -50,7 +50,7 @@ In the second pipeline, Databricks SQL reads preprocessed delta files and transf
 
 ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execution if there is no race that week. We have another pipeline to execute the ingestion pipeline and transformation pipeline using file_date as the parameter for the tumbling window trigger.
 
-<img src="https://github.com/lucmoraees/formula1-databricks/images/Pipeline.png">
+<img src="https://github.com/lucmoraees/formula1-databricks/blob/main/images/Pipeline.png">
 
 ## Azure Resources Used for this Project:
 
@@ -61,9 +61,9 @@ ADF is scheduled to run every Sunday at 10 PM and is designed to skip the execut
 
 ## Analysis Result:
 
-<img src="https://github.com/lucmoraees/formula1-databricks/images/Analysis1.png">
+<img src="https://github.com/lucmoraees/formula1-databricks/blob/main/images/Analysis1.jpeg">
 
-<img src="https://github.com/lucmoraees/formula1-databricks/images/Analysis2.png">
+<img src="https://github.com/lucmoraees/formula1-databricks/blob/main/images/Analysis2.jpeg">
 
 <h3>Technologies/Tools Used:</h3>
 <ul>
